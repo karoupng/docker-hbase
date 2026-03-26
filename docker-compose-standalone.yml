@@ -47,7 +47,7 @@ services:
     env_file:
       - ./hadoop.env
 
-  hbase:
+  banco_karol:
     image: bde2020/hbase-standalone:1.0.0-hbase1.2.6
     container_name: hbase
     volumes:
